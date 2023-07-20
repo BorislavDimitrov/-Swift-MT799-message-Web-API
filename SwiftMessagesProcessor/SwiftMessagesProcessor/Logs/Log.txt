@@ -1,0 +1,211 @@
+2023-07-20 18:08:45.550 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-07-20 18:08:45.655 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Messages" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Messages" PRIMARY KEY AUTOINCREMENT,
+    "BankIdentifier" TEXT NULL,
+    "TypeAndReference" TEXT NULL,
+    "Tag15_SendersReference" TEXT NULL,
+    "Tag20_TransactionReferenceNumber" TEXT NULL,
+    "Tag21_RelatedReference" TEXT NULL,
+    "Tag22_TypeOfOperation" TEXT NULL,
+    "Tag23_FurtherIndetification" TEXT NULL,
+    "Tag25_ProcessingFrequency" TEXT NULL,
+    "Tag26_NumberOfAvailableTenors" TEXT NULL,
+    "Tag27_SequenceOfTotal" TEXT NULL,
+    "Tag30_Date" TEXT NULL,
+    "Tag31_DateTimePeriod" TEXT NULL,
+    "Tag32_CurrencyAmount" TEXT NULL,
+    "Tag33_CurrencyOriginalOrderedAmount" TEXT NULL,
+    "Tag34_Percentage" TEXT NULL,
+    "Tag35_SequenceOfFormOfDocumentary" TEXT NULL,
+    "Tag36_DescriptionOfGoodsAndServices" TEXT NULL,
+    "Tag37_DocumentsRequired" TEXT NULL,
+    "Tag39_PercentageCreditAmountTolerance" TEXT NULL,
+    "Tag40_FormOfPresentation" TEXT NULL,
+    "Tag41_AvailableWith" TEXT NULL,
+    "Tag42_DraftsAt" TEXT NULL,
+    "Tag43_Shipments" TEXT NULL,
+    "Tag44_PlaceOfTakingInCharge" TEXT NULL,
+    "Tag45_DescriptionOfGoodsOrServices" TEXT NULL,
+    "Tag46_DocumentsRequired" TEXT NULL,
+    "Tag47_AdditionalConditions" TEXT NULL,
+    "Tag48_PeriodFroPresentation" TEXT NULL,
+    "Tag49_ConfirmationInstructions" TEXT NULL,
+    "Tag50_Applicant" TEXT NULL,
+    "Tag51_ApplicantBank" TEXT NULL,
+    "Tag52_IssuingBank" TEXT NULL,
+    "Tag53_ReimbursingBank" TEXT NULL,
+    "Tag54_AdvisingBank" TEXT NULL,
+    "Tag55_SecondAdvisingBank" TEXT NULL,
+    "Tag56_IntermediaryBank" TEXT NULL,
+    "Tag57_AccountWithInstitution" TEXT NULL,
+    "Tag58_Beneficiary" TEXT NULL,
+    "Tag59_BeneficiaryBank" TEXT NULL,
+    "Tag70_RemittanceInformation" TEXT NULL,
+    "Tag71_Reimbursement" TEXT NULL,
+    "Tag72_SenderToReceiverInformation" TEXT NULL,
+    "Tag73_ChargeDetails" TEXT NULL,
+    "Tag74_SendersCharges" TEXT NULL,
+    "Tag75_InstructionToPayingAcceptingNegotiatingBank" TEXT NULL,
+    "Tag79_Narrative" TEXT NULL,
+    "Tag80_InstructionsToTheBeneficiarysBank" TEXT NULL,
+    "Tag82_NIntermediaryBankCharges" TEXT NULL,
+    "Tag83_ReimbursingBankCharges" TEXT NULL,
+    "Tag84_AdviseThroughBankCharges" TEXT NULL,
+    "Tag85_SecondAdvisingBankCharges" TEXT NULL,
+    "MAC" TEXT NULL,
+    "CHK" TEXT NULL
+);
+2023-07-20 18:08:55.197 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-07-20 18:08:55.226 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-07-20 18:08:55.293 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2023-07-20 18:08:55.295 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-07-20 18:08:55.296 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 18:08:55.308 +03:00 [INF] Applying migration '20230720150845_InitialCreate'.
+2023-07-20 18:08:55.331 +03:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Messages" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Messages" PRIMARY KEY AUTOINCREMENT,
+    "BankIdentifier" TEXT NULL,
+    "TypeAndReference" TEXT NULL,
+    "Tag15_SendersReference" TEXT NULL,
+    "Tag20_TransactionReferenceNumber" TEXT NULL,
+    "Tag21_RelatedReference" TEXT NULL,
+    "Tag22_TypeOfOperation" TEXT NULL,
+    "Tag23_FurtherIndetification" TEXT NULL,
+    "Tag25_ProcessingFrequency" TEXT NULL,
+    "Tag26_NumberOfAvailableTenors" TEXT NULL,
+    "Tag27_SequenceOfTotal" TEXT NULL,
+    "Tag30_Date" TEXT NULL,
+    "Tag31_DateTimePeriod" TEXT NULL,
+    "Tag32_CurrencyAmount" TEXT NULL,
+    "Tag33_CurrencyOriginalOrderedAmount" TEXT NULL,
+    "Tag34_Percentage" TEXT NULL,
+    "Tag35_SequenceOfFormOfDocumentary" TEXT NULL,
+    "Tag36_DescriptionOfGoodsAndServices" TEXT NULL,
+    "Tag37_DocumentsRequired" TEXT NULL,
+    "Tag39_PercentageCreditAmountTolerance" TEXT NULL,
+    "Tag40_FormOfPresentation" TEXT NULL,
+    "Tag41_AvailableWith" TEXT NULL,
+    "Tag42_DraftsAt" TEXT NULL,
+    "Tag43_Shipments" TEXT NULL,
+    "Tag44_PlaceOfTakingInCharge" TEXT NULL,
+    "Tag45_DescriptionOfGoodsOrServices" TEXT NULL,
+    "Tag46_DocumentsRequired" TEXT NULL,
+    "Tag47_AdditionalConditions" TEXT NULL,
+    "Tag48_PeriodFroPresentation" TEXT NULL,
+    "Tag49_ConfirmationInstructions" TEXT NULL,
+    "Tag50_Applicant" TEXT NULL,
+    "Tag51_ApplicantBank" TEXT NULL,
+    "Tag52_IssuingBank" TEXT NULL,
+    "Tag53_ReimbursingBank" TEXT NULL,
+    "Tag54_AdvisingBank" TEXT NULL,
+    "Tag55_SecondAdvisingBank" TEXT NULL,
+    "Tag56_IntermediaryBank" TEXT NULL,
+    "Tag57_AccountWithInstitution" TEXT NULL,
+    "Tag58_Beneficiary" TEXT NULL,
+    "Tag59_BeneficiaryBank" TEXT NULL,
+    "Tag70_RemittanceInformation" TEXT NULL,
+    "Tag71_Reimbursement" TEXT NULL,
+    "Tag72_SenderToReceiverInformation" TEXT NULL,
+    "Tag73_ChargeDetails" TEXT NULL,
+    "Tag74_SendersCharges" TEXT NULL,
+    "Tag75_InstructionToPayingAcceptingNegotiatingBank" TEXT NULL,
+    "Tag79_Narrative" TEXT NULL,
+    "Tag80_InstructionsToTheBeneficiarysBank" TEXT NULL,
+    "Tag82_NIntermediaryBankCharges" TEXT NULL,
+    "Tag83_ReimbursingBankCharges" TEXT NULL,
+    "Tag84_AdviseThroughBankCharges" TEXT NULL,
+    "Tag85_SecondAdvisingBankCharges" TEXT NULL,
+    "MAC" TEXT NULL,
+    "CHK" TEXT NULL
+);
+2023-07-20 18:09:05.028 +03:00 [INF] Now listening on: https://localhost:7099
+2023-07-20 18:09:05.039 +03:00 [INF] Now listening on: http://localhost:5282
+2023-07-20 18:09:05.041 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-20 18:09:05.041 +03:00 [INF] Hosting environment: Development
+2023-07-20 18:09:05.041 +03:00 [INF] Content root path: C:\Users\Borislav\Desktop\New folder (3)\-Swift-MT799-message-Web-API\SwiftMessagesProcessor\SwiftMessagesProcessor
+2023-07-20 18:09:05.721 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7099/swagger/index.html - -
+2023-07-20 18:09:05.886 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7099/swagger/index.html - - - 200 - text/html;charset=utf-8 166.9408ms
+2023-07-20 18:09:05.895 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - -
+2023-07-20 18:09:05.895 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - -
+2023-07-20 18:09:05.901 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - - - 200 12384 application/javascript;+charset=utf-8 6.2234ms
+2023-07-20 18:09:05.929 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.6404ms
+2023-07-20 18:09:05.978 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7099/swagger/v1/swagger.json - -
+2023-07-20 18:09:06.042 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7099/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 64.6538ms
+2023-07-20 18:09:30.368 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7099/SwiftMessages/GetMessageFile multipart/form-data;+boundary=----WebKitFormBoundarybU5vLGYgwsng8GW6 1544
+2023-07-20 18:09:30.375 +03:00 [INF] Executing endpoint 'SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController.GetMessageFile (SwiftMessagesProcessor.Web)'
+2023-07-20 18:09:30.408 +03:00 [INF] Route matched with {action = "GetMessageFile", controller = "SwiftMessages"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMessageFile(Microsoft.AspNetCore.Http.IFormFile) on controller SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController (SwiftMessagesProcessor.Web).
+2023-07-20 18:09:31.292 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-07-20 18:09:31.345 +03:00 [INF] Begin upload of a file.
+2023-07-20 18:09:31.346 +03:00 [INF] Line: {1:F01PRCBBGSFAXXX1111111111}{2:O7991111111111ABGRSWACAXXX11111111111111111111N}{4:
+2023-07-20 18:09:31.346 +03:00 [INF] Line: :20:67-C111111-KNTRL 
+2023-07-20 18:09:31.347 +03:00 [INF] Line: :21:30-111-1111111
+2023-07-20 18:09:31.347 +03:00 [INF] Line: :79:NA VNIMANIETO NA: OTDEL BANKOVI GARANTSII
+2023-07-20 18:09:31.347 +03:00 [INF] Line: .
+2023-07-20 18:09:31.347 +03:00 [INF] Line: OTNOSNO: POTVARJDENIE NA AVTENTICHNOST NA
+2023-07-20 18:09:31.347 +03:00 [INF] Line:          PRIDRUJITELNO PISMO KAM ISKANE ZA
+2023-07-20 18:09:31.347 +03:00 [INF] Line:          PLASHTANE PO BANKOVA GARANCIA
+2023-07-20 18:09:31.347 +03:00 [INF] Line: .
+2023-07-20 18:09:31.348 +03:00 [INF] Line: UVAJAEMI KOLEGI,
+2023-07-20 18:09:31.348 +03:00 [INF] Line: .
+2023-07-20 18:09:31.348 +03:00 [INF] Line: UVEDOMJAVAME VI, CHE IZPRASHTAME ISKANE ZA 
+2023-07-20 18:09:31.349 +03:00 [INF] Line: PLASHTANE NA STOYNOST BGN 3.100,00, PREDSTAVENO 
+2023-07-20 18:09:31.350 +03:00 [INF] Line: OT NASHIA KLIENT.
+2023-07-20 18:09:31.350 +03:00 [INF] Line: .
+2023-07-20 18:09:31.351 +03:00 [INF] Line: S NASTOYASHTOTO POTVARZHDAVAME AVTENTICHNOSTTA NA 
+2023-07-20 18:09:31.352 +03:00 [INF] Line: PODPISITE VARHU PISMOTO NI, I CHE TEZI LICA SA 
+2023-07-20 18:09:31.352 +03:00 [INF] Line: UPALNOMOSHTENI DA PODPISVAT TAKAV DOKUMENT OT 
+2023-07-20 18:09:31.352 +03:00 [INF] Line: IMETO NA BANKATA AD.
+2023-07-20 18:09:31.353 +03:00 [INF] Line: .
+2023-07-20 18:09:31.353 +03:00 [INF] Line: POZDRAVI,
+2023-07-20 18:09:31.353 +03:00 [INF] Line: TARGOVSKO FINANSIRANE
+2023-07-20 18:09:31.353 +03:00 [INF] Line: :15:67-C111111-KNTRL 
+2023-07-20 18:09:31.353 +03:00 [INF] Line: :22:30-111-1111111
+2023-07-20 18:09:31.353 +03:00 [INF] Line: :23:NA VNIMANIETO NA: OTDEL BANKOVI GARANTSII
+2023-07-20 18:09:31.353 +03:00 [INF] Line: .
+2023-07-20 18:09:31.353 +03:00 [INF] Line: OTNOSNO: POTVARJDENIE NA AVTENTICHNOST NA
+2023-07-20 18:09:31.354 +03:00 [INF] Line:          PRIDRUJITELNO PISMO KAM ISKANE ZA
+2023-07-20 18:09:31.355 +03:00 [INF] Line:          PLASHTANE PO BANKOVA GARANCIA
+2023-07-20 18:09:31.355 +03:00 [INF] Line: .
+2023-07-20 18:09:31.355 +03:00 [INF] Line: UVAJAEMI KOLEGI,
+2023-07-20 18:09:31.356 +03:00 [INF] Line: .
+2023-07-20 18:09:31.356 +03:00 [INF] Line: UVEDOMJAVAME VI, CHE IZPRASHTAME ISKANE ZA 
+2023-07-20 18:09:31.356 +03:00 [INF] Line: PLASHTANE NA STOYNOST BGN 3.100,00, PREDSTAVENO 
+2023-07-20 18:09:31.356 +03:00 [INF] Line: OT NASHIA KLIENT.
+2023-07-20 18:09:31.357 +03:00 [INF] Line: .
+2023-07-20 18:09:31.357 +03:00 [INF] Line: S NASTOYASHTOTO POTVARZHDAVAME AVTENTICHNOSTTA NA 
+2023-07-20 18:09:31.357 +03:00 [INF] Line: PODPISITE VARHU PISMOTO NI, I CHE TEZI LICA SA 
+2023-07-20 18:09:31.358 +03:00 [INF] Line: UPALNOMOSHTENI DA PODPISVAT TAKAV DOKUMENT OT 
+2023-07-20 18:09:31.358 +03:00 [INF] Line: IMETO NA BANKATA AD.
+2023-07-20 18:09:31.358 +03:00 [INF] Line: .
+2023-07-20 18:09:31.358 +03:00 [INF] Line: POZDRAVI,
+2023-07-20 18:09:31.359 +03:00 [INF] Line: TARGOVSKO FINANSIRANE
+2023-07-20 18:09:31.359 +03:00 [INF] Line: :25:67-C111111-KNTRL 
+2023-07-20 18:09:31.359 +03:00 [INF] Line: :26:30-111-1111111
+2023-07-20 18:09:31.359 +03:00 [INF] Line: :30:67-C111111-KNTRL 
+2023-07-20 18:09:31.360 +03:00 [INF] Line: :47:30-111-1111111
+2023-07-20 18:09:31.360 +03:00 [INF] Line: -}{5:{MAC:00000000}{CHK:111111111111}}
+2023-07-20 18:09:31.388 +03:00 [INF] {1:F01PRCBBGSFAXXX1111111111}
+2023-07-20 18:09:31.388 +03:00 [INF] {2:O7991111111111ABGRSWACAXXX11111111111111111111N}
+2023-07-20 18:09:31.389 +03:00 [INF] {MAC:00000000}
+2023-07-20 18:09:31.389 +03:00 [INF] {CHK:111111111111}
+2023-07-20 18:09:31.595 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 25), @p1='?' (Size = 12), @p2='?' (Size = 8), @p3='?' (Size = 16), @p4='?' (Size = 16), @p5='?' (Size = 14), @p6='?' (Size = 14), @p7='?' (Size = 520), @p8='?' (Size = 16), @p9='?' (Size = 14), @p10='?', @p11='?' (Size = 16), @p12='?', @p13='?', @p14='?', @p15='?', @p16='?', @p17='?', @p18='?', @p19='?', @p20='?', @p21='?', @p22='?', @p23='?', @p24='?', @p25='?', @p26='?', @p27='?' (Size = 18), @p28='?', @p29='?', @p30='?', @p31='?', @p32='?', @p33='?', @p34='?', @p35='?', @p36='?', @p37='?', @p38='?', @p39='?', @p40='?', @p41='?', @p42='?', @p43='?', @p44='?', @p45='?', @p46='?' (Size = 520), @p47='?', @p48='?', @p49='?', @p50='?', @p51='?', @p52='?' (Size = 47)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Messages" ("BankIdentifier", "CHK", "MAC", "Tag15_SendersReference", "Tag20_TransactionReferenceNumber", "Tag21_RelatedReference", "Tag22_TypeOfOperation", "Tag23_FurtherIndetification", "Tag25_ProcessingFrequency", "Tag26_NumberOfAvailableTenors", "Tag27_SequenceOfTotal", "Tag30_Date", "Tag31_DateTimePeriod", "Tag32_CurrencyAmount", "Tag33_CurrencyOriginalOrderedAmount", "Tag34_Percentage", "Tag35_SequenceOfFormOfDocumentary", "Tag36_DescriptionOfGoodsAndServices", "Tag37_DocumentsRequired", "Tag39_PercentageCreditAmountTolerance", "Tag40_FormOfPresentation", "Tag41_AvailableWith", "Tag42_DraftsAt", "Tag43_Shipments", "Tag44_PlaceOfTakingInCharge", "Tag45_DescriptionOfGoodsOrServices", "Tag46_DocumentsRequired", "Tag47_AdditionalConditions", "Tag48_PeriodFroPresentation", "Tag49_ConfirmationInstructions", "Tag50_Applicant", "Tag51_ApplicantBank", "Tag52_IssuingBank", "Tag53_ReimbursingBank", "Tag54_AdvisingBank", "Tag55_SecondAdvisingBank", "Tag56_IntermediaryBank", "Tag57_AccountWithInstitution", "Tag58_Beneficiary", "Tag59_BeneficiaryBank", "Tag70_RemittanceInformation", "Tag71_Reimbursement", "Tag72_SenderToReceiverInformation", "Tag73_ChargeDetails", "Tag74_SendersCharges", "Tag75_InstructionToPayingAcceptingNegotiatingBank", "Tag79_Narrative", "Tag80_InstructionsToTheBeneficiarysBank", "Tag82_NIntermediaryBankCharges", "Tag83_ReimbursingBankCharges", "Tag84_AdviseThroughBankCharges", "Tag85_SecondAdvisingBankCharges", "TypeAndReference")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27, @p28, @p29, @p30, @p31, @p32, @p33, @p34, @p35, @p36, @p37, @p38, @p39, @p40, @p41, @p42, @p43, @p44, @p45, @p46, @p47, @p48, @p49, @p50, @p51, @p52)
+RETURNING "Id";
+2023-07-20 18:09:31.667 +03:00 [INF] Executing OkObjectResult, writing value of type 'Models.Message'.
+2023-07-20 18:09:31.685 +03:00 [INF] Executed action SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController.GetMessageFile (SwiftMessagesProcessor.Web) in 1274.1299ms
+2023-07-20 18:09:31.686 +03:00 [INF] Executed endpoint 'SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController.GetMessageFile (SwiftMessagesProcessor.Web)'
+2023-07-20 18:09:31.693 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7099/SwiftMessages/GetMessageFile multipart/form-data;+boundary=----WebKitFormBoundarybU5vLGYgwsng8GW6 1544 - 200 - application/json;+charset=utf-8 1324.2143ms
