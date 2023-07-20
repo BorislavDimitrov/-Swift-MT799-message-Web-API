@@ -10,10 +10,10 @@ namespace SwiftMessagesProcessor.Web.Controllers
     {
         private readonly IMessagesService messagesService;
         private readonly ILogger<SwiftMessagesController> logger;
-        public SwiftMessagesController(IMessagesService msssagesService, ILogger<SwiftMessagesController> logger)
+        public SwiftMessagesController(IMessagesService messageService, ILogger<SwiftMessagesController> logger)
         {
             this.logger = logger;
-            this.messagesService = msssagesService;
+            this.messagesService = messageService;
         }
 
         [HttpPost]
@@ -29,7 +29,7 @@ namespace SwiftMessagesProcessor.Web.Controllers
 
         private async Task<string> GetFileTextContentAsync(IFormFile file)
         {
-            using var memoryStream = file.OpenReadStream();
+            await using var memoryStream = file.OpenReadStream();
 
             using var memoryStreamReader = new StreamReader(memoryStream);
             var strBuilder = new StringBuilder();

@@ -335,3 +335,473 @@ RETURNING "Id";
 2023-07-20 22:36:43.160 +03:00 [INF] Executed action SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController.GetMessageFile (SwiftMessagesProcessor.Web) in 751.0582ms
 2023-07-20 22:36:43.161 +03:00 [INF] Executed endpoint 'SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController.GetMessageFile (SwiftMessagesProcessor.Web)'
 2023-07-20 22:36:43.166 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7099/SwiftMessages/GetMessageFile multipart/form-data;+boundary=----WebKitFormBoundaryRcbGcXuXPCyKt7gv 1544 - 200 - application/json;+charset=utf-8 782.7660ms
+2023-07-20 23:11:05.317 +03:00 [INF] Now listening on: https://localhost:7099
+2023-07-20 23:11:05.330 +03:00 [INF] Now listening on: http://localhost:5282
+2023-07-20 23:11:05.332 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-20 23:11:05.332 +03:00 [INF] Hosting environment: Development
+2023-07-20 23:11:05.333 +03:00 [INF] Content root path: C:\Users\Borislav\Desktop\New folder (3)\-Swift-MT799-message-Web-API\SwiftMessagesProcessor\SwiftMessagesProcessor
+2023-07-20 23:11:05.651 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7099/swagger/index.html - -
+2023-07-20 23:11:05.813 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7099/swagger/index.html - - - 200 - text/html;charset=utf-8 163.4557ms
+2023-07-20 23:11:05.819 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - -
+2023-07-20 23:11:05.819 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - -
+2023-07-20 23:11:05.825 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - - - 200 12384 application/javascript;+charset=utf-8 4.6257ms
+2023-07-20 23:11:05.838 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.8847ms
+2023-07-20 23:11:05.929 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7099/swagger/v1/swagger.json - -
+2023-07-20 23:11:05.999 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7099/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 69.4811ms
+2023-07-20 23:11:19.500 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7099/SwiftMessages/GetMessageFile multipart/form-data;+boundary=----WebKitFormBoundaryge4q3DVw9LjDYfcy 1544
+2023-07-20 23:11:19.507 +03:00 [INF] Executing endpoint 'SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController.GetMessageFile (SwiftMessagesProcessor.Web)'
+2023-07-20 23:11:19.527 +03:00 [INF] Route matched with {action = "GetMessageFile", controller = "SwiftMessages"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMessageFile(Microsoft.AspNetCore.Http.IFormFile) on controller SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController (SwiftMessagesProcessor.Web).
+2023-07-20 23:11:19.956 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-07-20 23:11:20.006 +03:00 [INF] Begin upload of a file.
+2023-07-20 23:11:20.009 +03:00 [INF] Line: {1:F01PRCBBGSFAXXX1111111111}{2:O7991111111111ABGRSWACAXXX11111111111111111111N}{4: has been read
+2023-07-20 23:11:20.009 +03:00 [INF] Line: :20:67-C111111-KNTRL  has been read
+2023-07-20 23:11:20.009 +03:00 [INF] Line: :21:30-111-1111111 has been read
+2023-07-20 23:11:20.010 +03:00 [INF] Line: :79:NA VNIMANIETO NA: OTDEL BANKOVI GARANTSII has been read
+2023-07-20 23:11:20.010 +03:00 [INF] Line: . has been read
+2023-07-20 23:11:20.010 +03:00 [INF] Line: OTNOSNO: POTVARJDENIE NA AVTENTICHNOST NA has been read
+2023-07-20 23:11:20.010 +03:00 [INF] Line:          PRIDRUJITELNO PISMO KAM ISKANE ZA has been read
+2023-07-20 23:11:20.010 +03:00 [INF] Line:          PLASHTANE PO BANKOVA GARANCIA has been read
+2023-07-20 23:11:20.010 +03:00 [INF] Line: . has been read
+2023-07-20 23:11:20.010 +03:00 [INF] Line: UVAJAEMI KOLEGI, has been read
+2023-07-20 23:11:20.011 +03:00 [INF] Line: . has been read
+2023-07-20 23:11:20.011 +03:00 [INF] Line: UVEDOMJAVAME VI, CHE IZPRASHTAME ISKANE ZA  has been read
+2023-07-20 23:11:20.011 +03:00 [INF] Line: PLASHTANE NA STOYNOST BGN 3.100,00, PREDSTAVENO  has been read
+2023-07-20 23:11:20.011 +03:00 [INF] Line: OT NASHIA KLIENT. has been read
+2023-07-20 23:11:20.011 +03:00 [INF] Line: . has been read
+2023-07-20 23:11:20.011 +03:00 [INF] Line: S NASTOYASHTOTO POTVARZHDAVAME AVTENTICHNOSTTA NA  has been read
+2023-07-20 23:11:20.012 +03:00 [INF] Line: PODPISITE VARHU PISMOTO NI, I CHE TEZI LICA SA  has been read
+2023-07-20 23:11:20.012 +03:00 [INF] Line: UPALNOMOSHTENI DA PODPISVAT TAKAV DOKUMENT OT  has been read
+2023-07-20 23:11:20.012 +03:00 [INF] Line: IMETO NA BANKATA AD. has been read
+2023-07-20 23:11:20.012 +03:00 [INF] Line: . has been read
+2023-07-20 23:11:20.012 +03:00 [INF] Line: POZDRAVI, has been read
+2023-07-20 23:11:20.012 +03:00 [INF] Line: TARGOVSKO FINANSIRANE has been read
+2023-07-20 23:11:20.013 +03:00 [INF] Line: :15:67-C111111-KNTRL  has been read
+2023-07-20 23:11:20.013 +03:00 [INF] Line: :22:30-111-1111111 has been read
+2023-07-20 23:11:20.013 +03:00 [INF] Line: :23:NA VNIMANIETO NA: OTDEL BANKOVI GARANTSII has been read
+2023-07-20 23:11:20.013 +03:00 [INF] Line: . has been read
+2023-07-20 23:11:20.013 +03:00 [INF] Line: OTNOSNO: POTVARJDENIE NA AVTENTICHNOST NA has been read
+2023-07-20 23:11:20.014 +03:00 [INF] Line:          PRIDRUJITELNO PISMO KAM ISKANE ZA has been read
+2023-07-20 23:11:20.014 +03:00 [INF] Line:          PLASHTANE PO BANKOVA GARANCIA has been read
+2023-07-20 23:11:20.015 +03:00 [INF] Line: . has been read
+2023-07-20 23:11:20.015 +03:00 [INF] Line: UVAJAEMI KOLEGI, has been read
+2023-07-20 23:11:20.018 +03:00 [INF] Line: . has been read
+2023-07-20 23:11:20.019 +03:00 [INF] Line: UVEDOMJAVAME VI, CHE IZPRASHTAME ISKANE ZA  has been read
+2023-07-20 23:11:20.019 +03:00 [INF] Line: PLASHTANE NA STOYNOST BGN 3.100,00, PREDSTAVENO  has been read
+2023-07-20 23:11:20.020 +03:00 [INF] Line: OT NASHIA KLIENT. has been read
+2023-07-20 23:11:20.020 +03:00 [INF] Line: . has been read
+2023-07-20 23:11:20.020 +03:00 [INF] Line: S NASTOYASHTOTO POTVARZHDAVAME AVTENTICHNOSTTA NA  has been read
+2023-07-20 23:11:20.021 +03:00 [INF] Line: PODPISITE VARHU PISMOTO NI, I CHE TEZI LICA SA  has been read
+2023-07-20 23:11:20.021 +03:00 [INF] Line: UPALNOMOSHTENI DA PODPISVAT TAKAV DOKUMENT OT  has been read
+2023-07-20 23:11:20.021 +03:00 [INF] Line: IMETO NA BANKATA AD. has been read
+2023-07-20 23:11:20.021 +03:00 [INF] Line: . has been read
+2023-07-20 23:11:20.022 +03:00 [INF] Line: POZDRAVI, has been read
+2023-07-20 23:11:20.022 +03:00 [INF] Line: TARGOVSKO FINANSIRANE has been read
+2023-07-20 23:11:20.022 +03:00 [INF] Line: :25:67-C111111-KNTRL  has been read
+2023-07-20 23:11:20.022 +03:00 [INF] Line: :26:30-111-1111111 has been read
+2023-07-20 23:11:20.023 +03:00 [INF] Line: :30:67-C111111-KNTRL  has been read
+2023-07-20 23:11:20.023 +03:00 [INF] Line: :47:30-111-1111111 has been read
+2023-07-20 23:11:20.023 +03:00 [INF] Line: -}{5:{MAC:00000000}{CHK:111111111111}} has been read
+2023-07-20 23:11:20.025 +03:00 [INF] {1:F01PRCBBGSFAXXX1111111111}
+2023-07-20 23:11:20.025 +03:00 [INF] {2:O7991111111111ABGRSWACAXXX11111111111111111111N}
+2023-07-20 23:11:20.026 +03:00 [INF] {MAC:00000000}
+2023-07-20 23:11:20.026 +03:00 [INF] {CHK:111111111111}
+2023-07-20 23:11:20.029 +03:00 [INF] Pattern: :20:, Content: :20:67-C111111-KNTRL
+2023-07-20 23:11:20.029 +03:00 [INF] Pattern: :21:, Content: :21:30-111-1111111
+2023-07-20 23:11:20.030 +03:00 [INF] Pattern: :79:, Content: :79:NA VNIMANIETO NA: OTDEL BANKOVI GARANTSII
+.
+OTNOSNO: POTVARJDENIE NA AVTENTICHNOST NA
+         PRIDRUJITELNO PISMO KAM ISKANE ZA
+         PLASHTANE PO BANKOVA GARANCIA
+.
+UVAJAEMI KOLEGI,
+.
+UVEDOMJAVAME VI, CHE IZPRASHTAME ISKANE ZA 
+PLASHTANE NA STOYNOST BGN 3.100,00, PREDSTAVENO 
+OT NASHIA KLIENT.
+.
+S NASTOYASHTOTO POTVARZHDAVAME AVTENTICHNOSTTA NA 
+PODPISITE VARHU PISMOTO NI, I CHE TEZI LICA SA 
+UPALNOMOSHTENI DA PODPISVAT TAKAV DOKUMENT OT 
+IMETO NA BANKATA AD.
+.
+POZDRAVI,
+TARGOVSKO FINANSIRANE
+2023-07-20 23:11:20.031 +03:00 [INF] Pattern: :15:, Content: :15:67-C111111-KNTRL
+2023-07-20 23:11:20.035 +03:00 [INF] Pattern: :22:, Content: :22:30-111-1111111
+2023-07-20 23:11:20.035 +03:00 [INF] Pattern: :23:, Content: :23:NA VNIMANIETO NA: OTDEL BANKOVI GARANTSII
+.
+OTNOSNO: POTVARJDENIE NA AVTENTICHNOST NA
+         PRIDRUJITELNO PISMO KAM ISKANE ZA
+         PLASHTANE PO BANKOVA GARANCIA
+.
+UVAJAEMI KOLEGI,
+.
+UVEDOMJAVAME VI, CHE IZPRASHTAME ISKANE ZA 
+PLASHTANE NA STOYNOST BGN 3.100,00, PREDSTAVENO 
+OT NASHIA KLIENT.
+.
+S NASTOYASHTOTO POTVARZHDAVAME AVTENTICHNOSTTA NA 
+PODPISITE VARHU PISMOTO NI, I CHE TEZI LICA SA 
+UPALNOMOSHTENI DA PODPISVAT TAKAV DOKUMENT OT 
+IMETO NA BANKATA AD.
+.
+POZDRAVI,
+TARGOVSKO FINANSIRANE
+2023-07-20 23:11:20.037 +03:00 [INF] Pattern: :25:, Content: :25:67-C111111-KNTRL
+2023-07-20 23:11:20.037 +03:00 [INF] Pattern: :26:, Content: :26:30-111-1111111
+2023-07-20 23:11:20.037 +03:00 [INF] Pattern: :30:, Content: :30:67-C111111-KNTRL
+2023-07-20 23:11:20.038 +03:00 [INF] Pattern: :47:, Content: :47:30-111-1111111
+-}
+2023-07-20 23:11:20.278 +03:00 [ERR] Failed executing DbCommand (4ms) [Parameters=[@p0='?' (Size = 25), @p1='?' (Size = 12), @p2='?' (Size = 8), @p3='?' (Size = 16), @p4='?' (Size = 16), @p5='?' (Size = 14), @p6='?' (Size = 14), @p7='?' (Size = 520), @p8='?' (Size = 16), @p9='?' (Size = 14), @p10='?', @p11='?' (Size = 16), @p12='?', @p13='?', @p14='?', @p15='?', @p16='?', @p17='?', @p18='?', @p19='?', @p20='?', @p21='?', @p22='?', @p23='?', @p24='?', @p25='?', @p26='?', @p27='?' (Size = 18), @p28='?', @p29='?', @p30='?', @p31='?', @p32='?', @p33='?', @p34='?', @p35='?', @p36='?', @p37='?', @p38='?', @p39='?', @p40='?', @p41='?', @p42='?', @p43='?', @p44='?', @p45='?', @p46='?' (Size = 520), @p47='?', @p48='?', @p49='?', @p50='?', @p51='?', @p52='?' (Size = 47)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Messages" ("BankIdentifier", "CHK", "MAC", "Tag15_SendersReference", "Tag20_TransactionReferenceNumber", "Tag21_RelatedReference", "Tag22_TypeOfOperation", "Tag23_FurtherIdentification", "Tag25_ProcessingFrequency", "Tag26_NumberOfAvailableTenors", "Tag27_SequenceOfTotal", "Tag30_Date", "Tag31_DateTimePeriod", "Tag32_CurrencyAmount", "Tag33_CurrencyOriginalOrderedAmount", "Tag34_Percentage", "Tag35_SequenceOfFormOfDocumentary", "Tag36_DescriptionOfGoodsAndServices", "Tag37_DocumentsRequired", "Tag39_PercentageCreditAmountTolerance", "Tag40_FormOfPresentation", "Tag41_AvailableWith", "Tag42_DraftsAt", "Tag43_Shipments", "Tag44_PlaceOfTakingInCharge", "Tag45_DescriptionOfGoodsOrServices", "Tag46_DocumentsRequired", "Tag47_AdditionalConditions", "Tag48_PeriodFroPresentation", "Tag49_ConfirmationInstructions", "Tag50_Applicant", "Tag51_ApplicantBank", "Tag52_IssuingBank", "Tag53_ReimbursingBank", "Tag54_AdvisingBank", "Tag55_SecondAdvisingBank", "Tag56_IntermediaryBank", "Tag57_AccountWithInstitution", "Tag58_Beneficiary", "Tag59_BeneficiaryBank", "Tag70_RemittanceInformation", "Tag71_Reimbursement", "Tag72_SenderToReceiverInformation", "Tag73_ChargeDetails", "Tag74_SendersCharges", "Tag75_InstructionToPayingAcceptingNegotiatingBank", "Tag79_Narrative", "Tag80_InstructionsToTheBeneficiarysBank", "Tag82_NIntermediaryBankCharges", "Tag83_ReimbursingBankCharges", "Tag84_AdviseThroughBankCharges", "Tag85_SecondAdvisingBankCharges", "TypeAndReference")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27, @p28, @p29, @p30, @p31, @p32, @p33, @p34, @p35, @p36, @p37, @p38, @p39, @p40, @p41, @p42, @p43, @p44, @p45, @p46, @p47, @p48, @p49, @p50, @p51, @p52)
+RETURNING "Id";
+2023-07-20 23:11:20.298 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'table Messages has no column named Tag23_FurtherIdentification'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'table Messages has no column named Tag23_FurtherIdentification'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-07-20 23:11:20.324 +03:00 [INF] Executed action SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController.GetMessageFile (SwiftMessagesProcessor.Web) in 791.4687ms
+2023-07-20 23:11:20.326 +03:00 [INF] Executed endpoint 'SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController.GetMessageFile (SwiftMessagesProcessor.Web)'
+2023-07-20 23:11:20.329 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'table Messages has no column named Tag23_FurtherIdentification'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Services.Messages.MessagesService.SaveMessageAsync(String MTmessage) in C:\Users\Borislav\Desktop\New folder (3)\-Swift-MT799-message-Web-API\SwiftMessagesProcessor\Services\Messages\MessagesService.cs:line 39
+   at SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController.GetMessageFile(IFormFile file) in C:\Users\Borislav\Desktop\New folder (3)\-Swift-MT799-message-Web-API\SwiftMessagesProcessor\SwiftMessagesProcessor\Controllers\SwiftMessagesController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-07-20 23:11:20.374 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7099/SwiftMessages/GetMessageFile multipart/form-data;+boundary=----WebKitFormBoundaryge4q3DVw9LjDYfcy 1544 - 500 - text/plain;+charset=utf-8 874.4567ms
+2023-07-20 23:13:40.383 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-07-20 23:13:40.507 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Messages" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Messages" PRIMARY KEY AUTOINCREMENT,
+    "BankIdentifier" TEXT NULL,
+    "TypeAndReference" TEXT NULL,
+    "Tag15_SendersReference" TEXT NULL,
+    "Tag20_TransactionReferenceNumber" TEXT NULL,
+    "Tag21_RelatedReference" TEXT NULL,
+    "Tag22_TypeOfOperation" TEXT NULL,
+    "Tag23_FurtherIdentification" TEXT NULL,
+    "Tag25_ProcessingFrequency" TEXT NULL,
+    "Tag26_NumberOfAvailableTenors" TEXT NULL,
+    "Tag27_SequenceOfTotal" TEXT NULL,
+    "Tag30_Date" TEXT NULL,
+    "Tag31_DateTimePeriod" TEXT NULL,
+    "Tag32_CurrencyAmount" TEXT NULL,
+    "Tag33_CurrencyOriginalOrderedAmount" TEXT NULL,
+    "Tag34_Percentage" TEXT NULL,
+    "Tag35_SequenceOfFormOfDocumentary" TEXT NULL,
+    "Tag36_DescriptionOfGoodsAndServices" TEXT NULL,
+    "Tag37_DocumentsRequired" TEXT NULL,
+    "Tag39_PercentageCreditAmountTolerance" TEXT NULL,
+    "Tag40_FormOfPresentation" TEXT NULL,
+    "Tag41_AvailableWith" TEXT NULL,
+    "Tag42_DraftsAt" TEXT NULL,
+    "Tag43_Shipments" TEXT NULL,
+    "Tag44_PlaceOfTakingInCharge" TEXT NULL,
+    "Tag45_DescriptionOfGoodsOrServices" TEXT NULL,
+    "Tag46_DocumentsRequired" TEXT NULL,
+    "Tag47_AdditionalConditions" TEXT NULL,
+    "Tag48_PeriodFroPresentation" TEXT NULL,
+    "Tag49_ConfirmationInstructions" TEXT NULL,
+    "Tag50_Applicant" TEXT NULL,
+    "Tag51_ApplicantBank" TEXT NULL,
+    "Tag52_IssuingBank" TEXT NULL,
+    "Tag53_ReimbursingBank" TEXT NULL,
+    "Tag54_AdvisingBank" TEXT NULL,
+    "Tag55_SecondAdvisingBank" TEXT NULL,
+    "Tag56_IntermediaryBank" TEXT NULL,
+    "Tag57_AccountWithInstitution" TEXT NULL,
+    "Tag58_Beneficiary" TEXT NULL,
+    "Tag59_BeneficiaryBank" TEXT NULL,
+    "Tag70_RemittanceInformation" TEXT NULL,
+    "Tag71_Reimbursement" TEXT NULL,
+    "Tag72_SenderToReceiverInformation" TEXT NULL,
+    "Tag73_ChargeDetails" TEXT NULL,
+    "Tag74_SendersCharges" TEXT NULL,
+    "Tag75_InstructionToPayingAcceptingNegotiatingBank" TEXT NULL,
+    "Tag79_Narrative" TEXT NULL,
+    "Tag80_InstructionsToTheBeneficiarysBank" TEXT NULL,
+    "Tag82_NIntermediaryBankCharges" TEXT NULL,
+    "Tag83_ReimbursingBankCharges" TEXT NULL,
+    "Tag84_AdviseThroughBankCharges" TEXT NULL,
+    "Tag85_SecondAdvisingBankCharges" TEXT NULL,
+    "MAC" TEXT NULL,
+    "CHK" TEXT NULL
+);
+2023-07-20 23:13:48.672 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-07-20 23:14:40.667 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-07-20 23:14:40.698 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-07-20 23:14:40.786 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2023-07-20 23:14:40.789 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-07-20 23:14:40.793 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-07-20 23:14:40.812 +03:00 [INF] Applying migration '20230720201348_InitialCreate'.
+2023-07-20 23:14:40.844 +03:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Messages" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Messages" PRIMARY KEY AUTOINCREMENT,
+    "BankIdentifier" TEXT NULL,
+    "TypeAndReference" TEXT NULL,
+    "Tag15_SendersReference" TEXT NULL,
+    "Tag20_TransactionReferenceNumber" TEXT NULL,
+    "Tag21_RelatedReference" TEXT NULL,
+    "Tag22_TypeOfOperation" TEXT NULL,
+    "Tag23_FurtherIdentification" TEXT NULL,
+    "Tag25_ProcessingFrequency" TEXT NULL,
+    "Tag26_NumberOfAvailableTenors" TEXT NULL,
+    "Tag27_SequenceOfTotal" TEXT NULL,
+    "Tag30_Date" TEXT NULL,
+    "Tag31_DateTimePeriod" TEXT NULL,
+    "Tag32_CurrencyAmount" TEXT NULL,
+    "Tag33_CurrencyOriginalOrderedAmount" TEXT NULL,
+    "Tag34_Percentage" TEXT NULL,
+    "Tag35_SequenceOfFormOfDocumentary" TEXT NULL,
+    "Tag36_DescriptionOfGoodsAndServices" TEXT NULL,
+    "Tag37_DocumentsRequired" TEXT NULL,
+    "Tag39_PercentageCreditAmountTolerance" TEXT NULL,
+    "Tag40_FormOfPresentation" TEXT NULL,
+    "Tag41_AvailableWith" TEXT NULL,
+    "Tag42_DraftsAt" TEXT NULL,
+    "Tag43_Shipments" TEXT NULL,
+    "Tag44_PlaceOfTakingInCharge" TEXT NULL,
+    "Tag45_DescriptionOfGoodsOrServices" TEXT NULL,
+    "Tag46_DocumentsRequired" TEXT NULL,
+    "Tag47_AdditionalConditions" TEXT NULL,
+    "Tag48_PeriodFroPresentation" TEXT NULL,
+    "Tag49_ConfirmationInstructions" TEXT NULL,
+    "Tag50_Applicant" TEXT NULL,
+    "Tag51_ApplicantBank" TEXT NULL,
+    "Tag52_IssuingBank" TEXT NULL,
+    "Tag53_ReimbursingBank" TEXT NULL,
+    "Tag54_AdvisingBank" TEXT NULL,
+    "Tag55_SecondAdvisingBank" TEXT NULL,
+    "Tag56_IntermediaryBank" TEXT NULL,
+    "Tag57_AccountWithInstitution" TEXT NULL,
+    "Tag58_Beneficiary" TEXT NULL,
+    "Tag59_BeneficiaryBank" TEXT NULL,
+    "Tag70_RemittanceInformation" TEXT NULL,
+    "Tag71_Reimbursement" TEXT NULL,
+    "Tag72_SenderToReceiverInformation" TEXT NULL,
+    "Tag73_ChargeDetails" TEXT NULL,
+    "Tag74_SendersCharges" TEXT NULL,
+    "Tag75_InstructionToPayingAcceptingNegotiatingBank" TEXT NULL,
+    "Tag79_Narrative" TEXT NULL,
+    "Tag80_InstructionsToTheBeneficiarysBank" TEXT NULL,
+    "Tag82_NIntermediaryBankCharges" TEXT NULL,
+    "Tag83_ReimbursingBankCharges" TEXT NULL,
+    "Tag84_AdviseThroughBankCharges" TEXT NULL,
+    "Tag85_SecondAdvisingBankCharges" TEXT NULL,
+    "MAC" TEXT NULL,
+    "CHK" TEXT NULL
+);
+2023-07-20 23:14:48.759 +03:00 [INF] Now listening on: https://localhost:7099
+2023-07-20 23:14:48.768 +03:00 [INF] Now listening on: http://localhost:5282
+2023-07-20 23:14:48.770 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-20 23:14:48.770 +03:00 [INF] Hosting environment: Development
+2023-07-20 23:14:48.771 +03:00 [INF] Content root path: C:\Users\Borislav\Desktop\New folder (3)\-Swift-MT799-message-Web-API\SwiftMessagesProcessor\SwiftMessagesProcessor
+2023-07-20 23:14:49.022 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7099/swagger/index.html - -
+2023-07-20 23:14:49.175 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7099/swagger/index.html - - - 200 - text/html;charset=utf-8 153.2015ms
+2023-07-20 23:14:49.182 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - -
+2023-07-20 23:14:49.182 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - -
+2023-07-20 23:14:49.188 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - - - 200 12384 application/javascript;+charset=utf-8 4.4830ms
+2023-07-20 23:14:49.199 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.1742ms
+2023-07-20 23:14:49.367 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7099/swagger/v1/swagger.json - -
+2023-07-20 23:14:49.430 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7099/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 63.7090ms
+2023-07-20 23:15:08.191 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7099/SwiftMessages/GetMessageFile multipart/form-data;+boundary=----WebKitFormBoundaryAd4t1uHUesHZuAUP 1544
+2023-07-20 23:15:08.198 +03:00 [INF] Executing endpoint 'SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController.GetMessageFile (SwiftMessagesProcessor.Web)'
+2023-07-20 23:15:08.228 +03:00 [INF] Route matched with {action = "GetMessageFile", controller = "SwiftMessages"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMessageFile(Microsoft.AspNetCore.Http.IFormFile) on controller SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController (SwiftMessagesProcessor.Web).
+2023-07-20 23:15:08.878 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-07-20 23:15:08.976 +03:00 [INF] Begin upload of a file.
+2023-07-20 23:15:08.979 +03:00 [INF] Line: {1:F01PRCBBGSFAXXX1111111111}{2:O7991111111111ABGRSWACAXXX11111111111111111111N}{4: has been read
+2023-07-20 23:15:08.979 +03:00 [INF] Line: :20:67-C111111-KNTRL  has been read
+2023-07-20 23:15:08.980 +03:00 [INF] Line: :21:30-111-1111111 has been read
+2023-07-20 23:15:08.980 +03:00 [INF] Line: :79:NA VNIMANIETO NA: OTDEL BANKOVI GARANTSII has been read
+2023-07-20 23:15:08.980 +03:00 [INF] Line: . has been read
+2023-07-20 23:15:08.981 +03:00 [INF] Line: OTNOSNO: POTVARJDENIE NA AVTENTICHNOST NA has been read
+2023-07-20 23:15:08.981 +03:00 [INF] Line:          PRIDRUJITELNO PISMO KAM ISKANE ZA has been read
+2023-07-20 23:15:08.981 +03:00 [INF] Line:          PLASHTANE PO BANKOVA GARANCIA has been read
+2023-07-20 23:15:08.982 +03:00 [INF] Line: . has been read
+2023-07-20 23:15:08.982 +03:00 [INF] Line: UVAJAEMI KOLEGI, has been read
+2023-07-20 23:15:08.982 +03:00 [INF] Line: . has been read
+2023-07-20 23:15:08.982 +03:00 [INF] Line: UVEDOMJAVAME VI, CHE IZPRASHTAME ISKANE ZA  has been read
+2023-07-20 23:15:08.982 +03:00 [INF] Line: PLASHTANE NA STOYNOST BGN 3.100,00, PREDSTAVENO  has been read
+2023-07-20 23:15:08.983 +03:00 [INF] Line: OT NASHIA KLIENT. has been read
+2023-07-20 23:15:08.983 +03:00 [INF] Line: . has been read
+2023-07-20 23:15:08.983 +03:00 [INF] Line: S NASTOYASHTOTO POTVARZHDAVAME AVTENTICHNOSTTA NA  has been read
+2023-07-20 23:15:08.983 +03:00 [INF] Line: PODPISITE VARHU PISMOTO NI, I CHE TEZI LICA SA  has been read
+2023-07-20 23:15:08.984 +03:00 [INF] Line: UPALNOMOSHTENI DA PODPISVAT TAKAV DOKUMENT OT  has been read
+2023-07-20 23:15:08.984 +03:00 [INF] Line: IMETO NA BANKATA AD. has been read
+2023-07-20 23:15:08.984 +03:00 [INF] Line: . has been read
+2023-07-20 23:15:08.984 +03:00 [INF] Line: POZDRAVI, has been read
+2023-07-20 23:15:08.984 +03:00 [INF] Line: TARGOVSKO FINANSIRANE has been read
+2023-07-20 23:15:08.985 +03:00 [INF] Line: :15:67-C111111-KNTRL  has been read
+2023-07-20 23:15:08.985 +03:00 [INF] Line: :22:30-111-1111111 has been read
+2023-07-20 23:15:08.985 +03:00 [INF] Line: :23:NA VNIMANIETO NA: OTDEL BANKOVI GARANTSII has been read
+2023-07-20 23:15:08.985 +03:00 [INF] Line: . has been read
+2023-07-20 23:15:08.985 +03:00 [INF] Line: OTNOSNO: POTVARJDENIE NA AVTENTICHNOST NA has been read
+2023-07-20 23:15:08.986 +03:00 [INF] Line:          PRIDRUJITELNO PISMO KAM ISKANE ZA has been read
+2023-07-20 23:15:08.986 +03:00 [INF] Line:          PLASHTANE PO BANKOVA GARANCIA has been read
+2023-07-20 23:15:08.987 +03:00 [INF] Line: . has been read
+2023-07-20 23:15:08.987 +03:00 [INF] Line: UVAJAEMI KOLEGI, has been read
+2023-07-20 23:15:08.987 +03:00 [INF] Line: . has been read
+2023-07-20 23:15:08.988 +03:00 [INF] Line: UVEDOMJAVAME VI, CHE IZPRASHTAME ISKANE ZA  has been read
+2023-07-20 23:15:08.991 +03:00 [INF] Line: PLASHTANE NA STOYNOST BGN 3.100,00, PREDSTAVENO  has been read
+2023-07-20 23:15:08.992 +03:00 [INF] Line: OT NASHIA KLIENT. has been read
+2023-07-20 23:15:08.992 +03:00 [INF] Line: . has been read
+2023-07-20 23:15:08.993 +03:00 [INF] Line: S NASTOYASHTOTO POTVARZHDAVAME AVTENTICHNOSTTA NA  has been read
+2023-07-20 23:15:08.994 +03:00 [INF] Line: PODPISITE VARHU PISMOTO NI, I CHE TEZI LICA SA  has been read
+2023-07-20 23:15:08.994 +03:00 [INF] Line: UPALNOMOSHTENI DA PODPISVAT TAKAV DOKUMENT OT  has been read
+2023-07-20 23:15:08.995 +03:00 [INF] Line: IMETO NA BANKATA AD. has been read
+2023-07-20 23:15:08.995 +03:00 [INF] Line: . has been read
+2023-07-20 23:15:08.996 +03:00 [INF] Line: POZDRAVI, has been read
+2023-07-20 23:15:08.996 +03:00 [INF] Line: TARGOVSKO FINANSIRANE has been read
+2023-07-20 23:15:08.997 +03:00 [INF] Line: :25:67-C111111-KNTRL  has been read
+2023-07-20 23:15:08.997 +03:00 [INF] Line: :26:30-111-1111111 has been read
+2023-07-20 23:15:08.997 +03:00 [INF] Line: :30:67-C111111-KNTRL  has been read
+2023-07-20 23:15:08.998 +03:00 [INF] Line: :47:30-111-1111111 has been read
+2023-07-20 23:15:08.998 +03:00 [INF] Line: -}{5:{MAC:00000000}{CHK:111111111111}} has been read
+2023-07-20 23:15:09.001 +03:00 [INF] {1:F01PRCBBGSFAXXX1111111111}
+2023-07-20 23:15:09.002 +03:00 [INF] {2:O7991111111111ABGRSWACAXXX11111111111111111111N}
+2023-07-20 23:15:09.002 +03:00 [INF] {MAC:00000000}
+2023-07-20 23:15:09.003 +03:00 [INF] {CHK:111111111111}
+2023-07-20 23:15:09.011 +03:00 [INF] Pattern: :20:, Content: :20:67-C111111-KNTRL
+2023-07-20 23:15:09.013 +03:00 [INF] Pattern: :21:, Content: :21:30-111-1111111
+2023-07-20 23:15:09.013 +03:00 [INF] Pattern: :79:, Content: :79:NA VNIMANIETO NA: OTDEL BANKOVI GARANTSII
+.
+OTNOSNO: POTVARJDENIE NA AVTENTICHNOST NA
+         PRIDRUJITELNO PISMO KAM ISKANE ZA
+         PLASHTANE PO BANKOVA GARANCIA
+.
+UVAJAEMI KOLEGI,
+.
+UVEDOMJAVAME VI, CHE IZPRASHTAME ISKANE ZA 
+PLASHTANE NA STOYNOST BGN 3.100,00, PREDSTAVENO 
+OT NASHIA KLIENT.
+.
+S NASTOYASHTOTO POTVARZHDAVAME AVTENTICHNOSTTA NA 
+PODPISITE VARHU PISMOTO NI, I CHE TEZI LICA SA 
+UPALNOMOSHTENI DA PODPISVAT TAKAV DOKUMENT OT 
+IMETO NA BANKATA AD.
+.
+POZDRAVI,
+TARGOVSKO FINANSIRANE
+2023-07-20 23:15:09.015 +03:00 [INF] Pattern: :15:, Content: :15:67-C111111-KNTRL
+2023-07-20 23:15:09.015 +03:00 [INF] Pattern: :22:, Content: :22:30-111-1111111
+2023-07-20 23:15:09.016 +03:00 [INF] Pattern: :23:, Content: :23:NA VNIMANIETO NA: OTDEL BANKOVI GARANTSII
+.
+OTNOSNO: POTVARJDENIE NA AVTENTICHNOST NA
+         PRIDRUJITELNO PISMO KAM ISKANE ZA
+         PLASHTANE PO BANKOVA GARANCIA
+.
+UVAJAEMI KOLEGI,
+.
+UVEDOMJAVAME VI, CHE IZPRASHTAME ISKANE ZA 
+PLASHTANE NA STOYNOST BGN 3.100,00, PREDSTAVENO 
+OT NASHIA KLIENT.
+.
+S NASTOYASHTOTO POTVARZHDAVAME AVTENTICHNOSTTA NA 
+PODPISITE VARHU PISMOTO NI, I CHE TEZI LICA SA 
+UPALNOMOSHTENI DA PODPISVAT TAKAV DOKUMENT OT 
+IMETO NA BANKATA AD.
+.
+POZDRAVI,
+TARGOVSKO FINANSIRANE
+2023-07-20 23:15:09.017 +03:00 [INF] Pattern: :25:, Content: :25:67-C111111-KNTRL
+2023-07-20 23:15:09.017 +03:00 [INF] Pattern: :26:, Content: :26:30-111-1111111
+2023-07-20 23:15:09.017 +03:00 [INF] Pattern: :30:, Content: :30:67-C111111-KNTRL
+2023-07-20 23:15:09.019 +03:00 [INF] Pattern: :47:, Content: :47:30-111-1111111
+-}
+2023-07-20 23:15:09.507 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (Size = 25), @p1='?' (Size = 12), @p2='?' (Size = 8), @p3='?' (Size = 16), @p4='?' (Size = 16), @p5='?' (Size = 14), @p6='?' (Size = 14), @p7='?' (Size = 520), @p8='?' (Size = 16), @p9='?' (Size = 14), @p10='?', @p11='?' (Size = 16), @p12='?', @p13='?', @p14='?', @p15='?', @p16='?', @p17='?', @p18='?', @p19='?', @p20='?', @p21='?', @p22='?', @p23='?', @p24='?', @p25='?', @p26='?', @p27='?' (Size = 18), @p28='?', @p29='?', @p30='?', @p31='?', @p32='?', @p33='?', @p34='?', @p35='?', @p36='?', @p37='?', @p38='?', @p39='?', @p40='?', @p41='?', @p42='?', @p43='?', @p44='?', @p45='?', @p46='?' (Size = 520), @p47='?', @p48='?', @p49='?', @p50='?', @p51='?', @p52='?' (Size = 47)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Messages" ("BankIdentifier", "CHK", "MAC", "Tag15_SendersReference", "Tag20_TransactionReferenceNumber", "Tag21_RelatedReference", "Tag22_TypeOfOperation", "Tag23_FurtherIdentification", "Tag25_ProcessingFrequency", "Tag26_NumberOfAvailableTenors", "Tag27_SequenceOfTotal", "Tag30_Date", "Tag31_DateTimePeriod", "Tag32_CurrencyAmount", "Tag33_CurrencyOriginalOrderedAmount", "Tag34_Percentage", "Tag35_SequenceOfFormOfDocumentary", "Tag36_DescriptionOfGoodsAndServices", "Tag37_DocumentsRequired", "Tag39_PercentageCreditAmountTolerance", "Tag40_FormOfPresentation", "Tag41_AvailableWith", "Tag42_DraftsAt", "Tag43_Shipments", "Tag44_PlaceOfTakingInCharge", "Tag45_DescriptionOfGoodsOrServices", "Tag46_DocumentsRequired", "Tag47_AdditionalConditions", "Tag48_PeriodFroPresentation", "Tag49_ConfirmationInstructions", "Tag50_Applicant", "Tag51_ApplicantBank", "Tag52_IssuingBank", "Tag53_ReimbursingBank", "Tag54_AdvisingBank", "Tag55_SecondAdvisingBank", "Tag56_IntermediaryBank", "Tag57_AccountWithInstitution", "Tag58_Beneficiary", "Tag59_BeneficiaryBank", "Tag70_RemittanceInformation", "Tag71_Reimbursement", "Tag72_SenderToReceiverInformation", "Tag73_ChargeDetails", "Tag74_SendersCharges", "Tag75_InstructionToPayingAcceptingNegotiatingBank", "Tag79_Narrative", "Tag80_InstructionsToTheBeneficiarysBank", "Tag82_NIntermediaryBankCharges", "Tag83_ReimbursingBankCharges", "Tag84_AdviseThroughBankCharges", "Tag85_SecondAdvisingBankCharges", "TypeAndReference")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27, @p28, @p29, @p30, @p31, @p32, @p33, @p34, @p35, @p36, @p37, @p38, @p39, @p40, @p41, @p42, @p43, @p44, @p45, @p46, @p47, @p48, @p49, @p50, @p51, @p52)
+RETURNING "Id";
+2023-07-20 23:15:09.574 +03:00 [INF] Executing OkObjectResult, writing value of type 'Models.Message'.
+2023-07-20 23:15:09.598 +03:00 [INF] Executed action SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController.GetMessageFile (SwiftMessagesProcessor.Web) in 1362.9012ms
+2023-07-20 23:15:09.599 +03:00 [INF] Executed endpoint 'SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController.GetMessageFile (SwiftMessagesProcessor.Web)'
+2023-07-20 23:15:09.609 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7099/SwiftMessages/GetMessageFile multipart/form-data;+boundary=----WebKitFormBoundaryAd4t1uHUesHZuAUP 1544 - 200 - application/json;+charset=utf-8 1417.8270ms

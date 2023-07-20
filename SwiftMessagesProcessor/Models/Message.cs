@@ -16,7 +16,7 @@
 
         public string? Tag22_TypeOfOperation { get; set; }
 
-        public string? Tag23_FurtherIndetification { get; set; }
+        public string? Tag23_FurtherIdentification { get; set; }
 
         public string? Tag25_ProcessingFrequency { get; set; }
 

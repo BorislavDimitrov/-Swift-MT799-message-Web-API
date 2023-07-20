@@ -43,7 +43,7 @@ namespace Data.Migrations
                     b.Property<string>("Tag22_TypeOfOperation")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Tag23_FurtherIndetification")
+                    b.Property<string>("Tag23_FurtherIdentification")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Tag25_ProcessingFrequency")

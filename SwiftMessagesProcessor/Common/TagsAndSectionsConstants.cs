@@ -16,7 +16,7 @@
 
         public const string GetSection5Template = "{5:[\\s\\S]*-}";
 
-        public static Dictionary<string, string> tagCodes = new Dictionary<string, string>()
+        public static Dictionary<string, string> TagCodes = new Dictionary<string, string>()
         {
             { "Tag15", ""},
             { "Tag20", ""},

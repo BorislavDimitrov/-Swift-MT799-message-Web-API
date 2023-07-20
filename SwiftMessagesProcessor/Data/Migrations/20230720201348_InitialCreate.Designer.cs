@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230720150845_InitialCreate")]
+    [Migration("20230720201348_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -46,7 +46,7 @@ namespace Data.Migrations
                     b.Property<string>("Tag22_TypeOfOperation")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Tag23_FurtherIndetification")
+                    b.Property<string>("Tag23_FurtherIdentification")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Tag25_ProcessingFrequency")

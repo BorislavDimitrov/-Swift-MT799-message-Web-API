@@ -70,7 +70,7 @@ namespace Services.Messages
             var section = ObtainFourthSection(message);
             section = section.TrimStart();
 
-            var tagCodes = new Dictionary<string, string>(TagsAndSectionsConstants.tagCodes);
+            var tagCodes = new Dictionary<string, string>(TagsAndSectionsConstants.TagCodes);
 
             foreach (var match in Regex.Matches(section, ":\\d+:").Cast<Match>())
             {

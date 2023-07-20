@@ -22,7 +22,7 @@ namespace Data.Migrations
                     Tag20_TransactionReferenceNumber = table.Column<string>(type: "TEXT", nullable: true),
                     Tag21_RelatedReference = table.Column<string>(type: "TEXT", nullable: true),
                     Tag22_TypeOfOperation = table.Column<string>(type: "TEXT", nullable: true),
-                    Tag23_FurtherIndetification = table.Column<string>(type: "TEXT", nullable: true),
+                    Tag23_FurtherIdentification = table.Column<string>(type: "TEXT", nullable: true),
                     Tag25_ProcessingFrequency = table.Column<string>(type: "TEXT", nullable: true),
                     Tag26_NumberOfAvailableTenors = table.Column<string>(type: "TEXT", nullable: true),
                     Tag27_SequenceOfTotal = table.Column<string>(type: "TEXT", nullable: true),
