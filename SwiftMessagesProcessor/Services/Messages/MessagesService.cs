@@ -22,14 +22,13 @@ namespace Services.Messages
 
         public async Task<Message> SaveMessageAsync(string MTmessage)
         {
-            var newMessage = new Message();
-            var bankIdentifier = ObtainFristAndSecondSectionsTags(MTmessage, TagsAndSectionsConstants.Section1Tag);
-            var typeAndReference = ObtainFristAndSecondSectionsTags(MTmessage, TagsAndSectionsConstants.Section2Tag);
+            var bankIdentifier = ObtainFirstAndSecondSectionsTags(MTmessage, TagsAndSectionsConstants.Section1Tag);
+            var typeAndReference = ObtainFirstAndSecondSectionsTags(MTmessage, TagsAndSectionsConstants.Section2Tag);
             var MAC = ObtainFifthSectionsTags(MTmessage, TagsAndSectionsConstants.MACTag);
             var CHK = ObtainFifthSectionsTags(MTmessage, TagsAndSectionsConstants.CHKTag);
 
             var tags = ObtainFourthSectionTags(MTmessage);
-            newMessage = mapper.Map<Message>(tags);
+            var newMessage = mapper.Map<Message>(tags);
 
             newMessage.BankIdentifier = bankIdentifier;
             newMessage.TypeAndReference = typeAndReference;
@@ -43,7 +42,7 @@ namespace Services.Messages
 
         }
 
-        private string ObtainFristAndSecondSectionsTags(string message, string sectionTag)
+        private string ObtainFirstAndSecondSectionsTags(string message, string sectionTag)
         {
             var section = ObtainFirstAndSecondSections(message, sectionTag);
             this.logger.LogInformation(section);
@@ -86,7 +85,7 @@ namespace Services.Messages
                     tagCodes[key] = content.Replace(someNumber, "");
                 }
 
-                Console.WriteLine($"Pattern: {someNumber}, Content: {content}");
+                logger.LogInformation($"Pattern: {someNumber}, Content: {content}");
             }
 
             return tagCodes;

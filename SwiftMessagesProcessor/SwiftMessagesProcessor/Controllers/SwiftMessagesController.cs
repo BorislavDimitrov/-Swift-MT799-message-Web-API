@@ -37,7 +37,7 @@ namespace SwiftMessagesProcessor.Web.Controllers
             while (!memoryStreamReader.EndOfStream)
             {
                 var line = await memoryStreamReader.ReadLineAsync();
-                this.logger.LogInformation("Line: {@line}", line);
+                this.logger.LogInformation("Line: {@line} has been read", line);
                 strBuilder.AppendLine(line);
 
             }

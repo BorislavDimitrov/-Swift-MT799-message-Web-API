@@ -209,3 +209,129 @@ RETURNING "Id";
 2023-07-20 18:09:31.685 +03:00 [INF] Executed action SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController.GetMessageFile (SwiftMessagesProcessor.Web) in 1274.1299ms
 2023-07-20 18:09:31.686 +03:00 [INF] Executed endpoint 'SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController.GetMessageFile (SwiftMessagesProcessor.Web)'
 2023-07-20 18:09:31.693 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7099/SwiftMessages/GetMessageFile multipart/form-data;+boundary=----WebKitFormBoundarybU5vLGYgwsng8GW6 1544 - 200 - application/json;+charset=utf-8 1324.2143ms
+2023-07-20 22:36:34.246 +03:00 [INF] Now listening on: https://localhost:7099
+2023-07-20 22:36:34.257 +03:00 [INF] Now listening on: http://localhost:5282
+2023-07-20 22:36:34.259 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-20 22:36:34.259 +03:00 [INF] Hosting environment: Development
+2023-07-20 22:36:34.259 +03:00 [INF] Content root path: C:\Users\Borislav\Desktop\New folder (3)\-Swift-MT799-message-Web-API\SwiftMessagesProcessor\SwiftMessagesProcessor
+2023-07-20 22:36:34.740 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7099/swagger/index.html - -
+2023-07-20 22:36:34.929 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - -
+2023-07-20 22:36:34.929 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7099/_vs/browserLink - -
+2023-07-20 22:36:34.932 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7099/swagger/index.html - - - 200 - text/html;charset=utf-8 192.5751ms
+2023-07-20 22:36:34.935 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_framework/aspnetcore-browser-refresh.js - - - 200 12384 application/javascript;+charset=utf-8 4.7545ms
+2023-07-20 22:36:35.045 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7099/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 115.6330ms
+2023-07-20 22:36:35.096 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7099/swagger/v1/swagger.json - -
+2023-07-20 22:36:35.169 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7099/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 73.2445ms
+2023-07-20 22:36:42.383 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7099/SwiftMessages/GetMessageFile multipart/form-data;+boundary=----WebKitFormBoundaryRcbGcXuXPCyKt7gv 1544
+2023-07-20 22:36:42.389 +03:00 [INF] Executing endpoint 'SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController.GetMessageFile (SwiftMessagesProcessor.Web)'
+2023-07-20 22:36:42.405 +03:00 [INF] Route matched with {action = "GetMessageFile", controller = "SwiftMessages"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMessageFile(Microsoft.AspNetCore.Http.IFormFile) on controller SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController (SwiftMessagesProcessor.Web).
+2023-07-20 22:36:42.815 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-07-20 22:36:42.867 +03:00 [INF] Begin upload of a file.
+2023-07-20 22:36:42.868 +03:00 [INF] Line: {1:F01PRCBBGSFAXXX1111111111}{2:O7991111111111ABGRSWACAXXX11111111111111111111N}{4: has been read
+2023-07-20 22:36:42.868 +03:00 [INF] Line: :20:67-C111111-KNTRL  has been read
+2023-07-20 22:36:42.869 +03:00 [INF] Line: :21:30-111-1111111 has been read
+2023-07-20 22:36:42.869 +03:00 [INF] Line: :79:NA VNIMANIETO NA: OTDEL BANKOVI GARANTSII has been read
+2023-07-20 22:36:42.869 +03:00 [INF] Line: . has been read
+2023-07-20 22:36:42.869 +03:00 [INF] Line: OTNOSNO: POTVARJDENIE NA AVTENTICHNOST NA has been read
+2023-07-20 22:36:42.869 +03:00 [INF] Line:          PRIDRUJITELNO PISMO KAM ISKANE ZA has been read
+2023-07-20 22:36:42.869 +03:00 [INF] Line:          PLASHTANE PO BANKOVA GARANCIA has been read
+2023-07-20 22:36:42.870 +03:00 [INF] Line: . has been read
+2023-07-20 22:36:42.870 +03:00 [INF] Line: UVAJAEMI KOLEGI, has been read
+2023-07-20 22:36:42.870 +03:00 [INF] Line: . has been read
+2023-07-20 22:36:42.871 +03:00 [INF] Line: UVEDOMJAVAME VI, CHE IZPRASHTAME ISKANE ZA  has been read
+2023-07-20 22:36:42.871 +03:00 [INF] Line: PLASHTANE NA STOYNOST BGN 3.100,00, PREDSTAVENO  has been read
+2023-07-20 22:36:42.871 +03:00 [INF] Line: OT NASHIA KLIENT. has been read
+2023-07-20 22:36:42.871 +03:00 [INF] Line: . has been read
+2023-07-20 22:36:42.871 +03:00 [INF] Line: S NASTOYASHTOTO POTVARZHDAVAME AVTENTICHNOSTTA NA  has been read
+2023-07-20 22:36:42.872 +03:00 [INF] Line: PODPISITE VARHU PISMOTO NI, I CHE TEZI LICA SA  has been read
+2023-07-20 22:36:42.872 +03:00 [INF] Line: UPALNOMOSHTENI DA PODPISVAT TAKAV DOKUMENT OT  has been read
+2023-07-20 22:36:42.872 +03:00 [INF] Line: IMETO NA BANKATA AD. has been read
+2023-07-20 22:36:42.872 +03:00 [INF] Line: . has been read
+2023-07-20 22:36:42.872 +03:00 [INF] Line: POZDRAVI, has been read
+2023-07-20 22:36:42.872 +03:00 [INF] Line: TARGOVSKO FINANSIRANE has been read
+2023-07-20 22:36:42.873 +03:00 [INF] Line: :15:67-C111111-KNTRL  has been read
+2023-07-20 22:36:42.873 +03:00 [INF] Line: :22:30-111-1111111 has been read
+2023-07-20 22:36:42.873 +03:00 [INF] Line: :23:NA VNIMANIETO NA: OTDEL BANKOVI GARANTSII has been read
+2023-07-20 22:36:42.873 +03:00 [INF] Line: . has been read
+2023-07-20 22:36:42.873 +03:00 [INF] Line: OTNOSNO: POTVARJDENIE NA AVTENTICHNOST NA has been read
+2023-07-20 22:36:42.873 +03:00 [INF] Line:          PRIDRUJITELNO PISMO KAM ISKANE ZA has been read
+2023-07-20 22:36:42.874 +03:00 [INF] Line:          PLASHTANE PO BANKOVA GARANCIA has been read
+2023-07-20 22:36:42.874 +03:00 [INF] Line: . has been read
+2023-07-20 22:36:42.874 +03:00 [INF] Line: UVAJAEMI KOLEGI, has been read
+2023-07-20 22:36:42.874 +03:00 [INF] Line: . has been read
+2023-07-20 22:36:42.875 +03:00 [INF] Line: UVEDOMJAVAME VI, CHE IZPRASHTAME ISKANE ZA  has been read
+2023-07-20 22:36:42.875 +03:00 [INF] Line: PLASHTANE NA STOYNOST BGN 3.100,00, PREDSTAVENO  has been read
+2023-07-20 22:36:42.875 +03:00 [INF] Line: OT NASHIA KLIENT. has been read
+2023-07-20 22:36:42.875 +03:00 [INF] Line: . has been read
+2023-07-20 22:36:42.876 +03:00 [INF] Line: S NASTOYASHTOTO POTVARZHDAVAME AVTENTICHNOSTTA NA  has been read
+2023-07-20 22:36:42.876 +03:00 [INF] Line: PODPISITE VARHU PISMOTO NI, I CHE TEZI LICA SA  has been read
+2023-07-20 22:36:42.876 +03:00 [INF] Line: UPALNOMOSHTENI DA PODPISVAT TAKAV DOKUMENT OT  has been read
+2023-07-20 22:36:42.876 +03:00 [INF] Line: IMETO NA BANKATA AD. has been read
+2023-07-20 22:36:42.877 +03:00 [INF] Line: . has been read
+2023-07-20 22:36:42.877 +03:00 [INF] Line: POZDRAVI, has been read
+2023-07-20 22:36:42.877 +03:00 [INF] Line: TARGOVSKO FINANSIRANE has been read
+2023-07-20 22:36:42.877 +03:00 [INF] Line: :25:67-C111111-KNTRL  has been read
+2023-07-20 22:36:42.877 +03:00 [INF] Line: :26:30-111-1111111 has been read
+2023-07-20 22:36:42.878 +03:00 [INF] Line: :30:67-C111111-KNTRL  has been read
+2023-07-20 22:36:42.878 +03:00 [INF] Line: :47:30-111-1111111 has been read
+2023-07-20 22:36:42.879 +03:00 [INF] Line: -}{5:{MAC:00000000}{CHK:111111111111}} has been read
+2023-07-20 22:36:42.882 +03:00 [INF] {1:F01PRCBBGSFAXXX1111111111}
+2023-07-20 22:36:42.882 +03:00 [INF] {2:O7991111111111ABGRSWACAXXX11111111111111111111N}
+2023-07-20 22:36:42.883 +03:00 [INF] {MAC:00000000}
+2023-07-20 22:36:42.883 +03:00 [INF] {CHK:111111111111}
+2023-07-20 22:36:42.886 +03:00 [INF] Pattern: :20:, Content: :20:67-C111111-KNTRL
+2023-07-20 22:36:42.887 +03:00 [INF] Pattern: :21:, Content: :21:30-111-1111111
+2023-07-20 22:36:42.888 +03:00 [INF] Pattern: :79:, Content: :79:NA VNIMANIETO NA: OTDEL BANKOVI GARANTSII
+.
+OTNOSNO: POTVARJDENIE NA AVTENTICHNOST NA
+         PRIDRUJITELNO PISMO KAM ISKANE ZA
+         PLASHTANE PO BANKOVA GARANCIA
+.
+UVAJAEMI KOLEGI,
+.
+UVEDOMJAVAME VI, CHE IZPRASHTAME ISKANE ZA 
+PLASHTANE NA STOYNOST BGN 3.100,00, PREDSTAVENO 
+OT NASHIA KLIENT.
+.
+S NASTOYASHTOTO POTVARZHDAVAME AVTENTICHNOSTTA NA 
+PODPISITE VARHU PISMOTO NI, I CHE TEZI LICA SA 
+UPALNOMOSHTENI DA PODPISVAT TAKAV DOKUMENT OT 
+IMETO NA BANKATA AD.
+.
+POZDRAVI,
+TARGOVSKO FINANSIRANE
+2023-07-20 22:36:42.888 +03:00 [INF] Pattern: :15:, Content: :15:67-C111111-KNTRL
+2023-07-20 22:36:42.888 +03:00 [INF] Pattern: :22:, Content: :22:30-111-1111111
+2023-07-20 22:36:42.889 +03:00 [INF] Pattern: :23:, Content: :23:NA VNIMANIETO NA: OTDEL BANKOVI GARANTSII
+.
+OTNOSNO: POTVARJDENIE NA AVTENTICHNOST NA
+         PRIDRUJITELNO PISMO KAM ISKANE ZA
+         PLASHTANE PO BANKOVA GARANCIA
+.
+UVAJAEMI KOLEGI,
+.
+UVEDOMJAVAME VI, CHE IZPRASHTAME ISKANE ZA 
+PLASHTANE NA STOYNOST BGN 3.100,00, PREDSTAVENO 
+OT NASHIA KLIENT.
+.
+S NASTOYASHTOTO POTVARZHDAVAME AVTENTICHNOSTTA NA 
+PODPISITE VARHU PISMOTO NI, I CHE TEZI LICA SA 
+UPALNOMOSHTENI DA PODPISVAT TAKAV DOKUMENT OT 
+IMETO NA BANKATA AD.
+.
+POZDRAVI,
+TARGOVSKO FINANSIRANE
+2023-07-20 22:36:42.890 +03:00 [INF] Pattern: :25:, Content: :25:67-C111111-KNTRL
+2023-07-20 22:36:42.890 +03:00 [INF] Pattern: :26:, Content: :26:30-111-1111111
+2023-07-20 22:36:42.890 +03:00 [INF] Pattern: :30:, Content: :30:67-C111111-KNTRL
+2023-07-20 22:36:42.890 +03:00 [INF] Pattern: :47:, Content: :47:30-111-1111111
+-}
+2023-07-20 22:36:43.094 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 25), @p1='?' (Size = 12), @p2='?' (Size = 8), @p3='?' (Size = 16), @p4='?' (Size = 16), @p5='?' (Size = 14), @p6='?' (Size = 14), @p7='?' (Size = 520), @p8='?' (Size = 16), @p9='?' (Size = 14), @p10='?', @p11='?' (Size = 16), @p12='?', @p13='?', @p14='?', @p15='?', @p16='?', @p17='?', @p18='?', @p19='?', @p20='?', @p21='?', @p22='?', @p23='?', @p24='?', @p25='?', @p26='?', @p27='?' (Size = 18), @p28='?', @p29='?', @p30='?', @p31='?', @p32='?', @p33='?', @p34='?', @p35='?', @p36='?', @p37='?', @p38='?', @p39='?', @p40='?', @p41='?', @p42='?', @p43='?', @p44='?', @p45='?', @p46='?' (Size = 520), @p47='?', @p48='?', @p49='?', @p50='?', @p51='?', @p52='?' (Size = 47)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Messages" ("BankIdentifier", "CHK", "MAC", "Tag15_SendersReference", "Tag20_TransactionReferenceNumber", "Tag21_RelatedReference", "Tag22_TypeOfOperation", "Tag23_FurtherIndetification", "Tag25_ProcessingFrequency", "Tag26_NumberOfAvailableTenors", "Tag27_SequenceOfTotal", "Tag30_Date", "Tag31_DateTimePeriod", "Tag32_CurrencyAmount", "Tag33_CurrencyOriginalOrderedAmount", "Tag34_Percentage", "Tag35_SequenceOfFormOfDocumentary", "Tag36_DescriptionOfGoodsAndServices", "Tag37_DocumentsRequired", "Tag39_PercentageCreditAmountTolerance", "Tag40_FormOfPresentation", "Tag41_AvailableWith", "Tag42_DraftsAt", "Tag43_Shipments", "Tag44_PlaceOfTakingInCharge", "Tag45_DescriptionOfGoodsOrServices", "Tag46_DocumentsRequired", "Tag47_AdditionalConditions", "Tag48_PeriodFroPresentation", "Tag49_ConfirmationInstructions", "Tag50_Applicant", "Tag51_ApplicantBank", "Tag52_IssuingBank", "Tag53_ReimbursingBank", "Tag54_AdvisingBank", "Tag55_SecondAdvisingBank", "Tag56_IntermediaryBank", "Tag57_AccountWithInstitution", "Tag58_Beneficiary", "Tag59_BeneficiaryBank", "Tag70_RemittanceInformation", "Tag71_Reimbursement", "Tag72_SenderToReceiverInformation", "Tag73_ChargeDetails", "Tag74_SendersCharges", "Tag75_InstructionToPayingAcceptingNegotiatingBank", "Tag79_Narrative", "Tag80_InstructionsToTheBeneficiarysBank", "Tag82_NIntermediaryBankCharges", "Tag83_ReimbursingBankCharges", "Tag84_AdviseThroughBankCharges", "Tag85_SecondAdvisingBankCharges", "TypeAndReference")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25, @p26, @p27, @p28, @p29, @p30, @p31, @p32, @p33, @p34, @p35, @p36, @p37, @p38, @p39, @p40, @p41, @p42, @p43, @p44, @p45, @p46, @p47, @p48, @p49, @p50, @p51, @p52)
+RETURNING "Id";
+2023-07-20 22:36:43.142 +03:00 [INF] Executing OkObjectResult, writing value of type 'Models.Message'.
+2023-07-20 22:36:43.160 +03:00 [INF] Executed action SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController.GetMessageFile (SwiftMessagesProcessor.Web) in 751.0582ms
+2023-07-20 22:36:43.161 +03:00 [INF] Executed endpoint 'SwiftMessagesProcessor.Web.Controllers.SwiftMessagesController.GetMessageFile (SwiftMessagesProcessor.Web)'
+2023-07-20 22:36:43.166 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7099/SwiftMessages/GetMessageFile multipart/form-data;+boundary=----WebKitFormBoundaryRcbGcXuXPCyKt7gv 1544 - 200 - application/json;+charset=utf-8 782.7660ms
