@@ -1954,11 +1954,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Borislav\\Desktop\\New folder (3)\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\Models\\Models.csproj",
+      "projectUniqueName": "C:\\Users\\Borislav\\Desktop\\swift\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "C:\\Users\\Borislav\\Desktop\\New folder (3)\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\Models\\Models.csproj",
+      "projectPath": "C:\\Users\\Borislav\\Desktop\\swift\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\Borislav\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Borislav\\Desktop\\New folder (3)\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\Models\\obj\\",
+      "outputPath": "C:\\Users\\Borislav\\Desktop\\swift\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Borislav\\AppData\\Roaming\\NuGet\\NuGet.Config",

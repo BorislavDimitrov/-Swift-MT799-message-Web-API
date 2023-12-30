@@ -2542,11 +2542,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Borislav\\Desktop\\New folder (3)\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\SwiftMessagesProcessor\\SwiftMessagesProcessor.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Borislav\\Desktop\\swift\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\SwiftMessagesProcessor\\SwiftMessagesProcessor.Web.csproj",
       "projectName": "SwiftMessagesProcessor.Web",
-      "projectPath": "C:\\Users\\Borislav\\Desktop\\New folder (3)\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\SwiftMessagesProcessor\\SwiftMessagesProcessor.Web.csproj",
+      "projectPath": "C:\\Users\\Borislav\\Desktop\\swift\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\SwiftMessagesProcessor\\SwiftMessagesProcessor.Web.csproj",
       "packagesPath": "C:\\Users\\Borislav\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Borislav\\Desktop\\New folder (3)\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\SwiftMessagesProcessor\\obj\\",
+      "outputPath": "C:\\Users\\Borislav\\Desktop\\swift\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\SwiftMessagesProcessor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Borislav\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2564,11 +2564,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Borislav\\Desktop\\New folder (3)\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\Mapping\\Mapping.csproj": {
-              "projectPath": "C:\\Users\\Borislav\\Desktop\\New folder (3)\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\Mapping\\Mapping.csproj"
+            "C:\\Users\\Borislav\\Desktop\\swift\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\Mapping\\Mapping.csproj": {
+              "projectPath": "C:\\Users\\Borislav\\Desktop\\swift\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\Mapping\\Mapping.csproj"
             },
-            "C:\\Users\\Borislav\\Desktop\\New folder (3)\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\Borislav\\Desktop\\New folder (3)\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\Services\\Services.csproj"
+            "C:\\Users\\Borislav\\Desktop\\swift\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\Borislav\\Desktop\\swift\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\Services\\Services.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VuPsYmv1r6Ako8p+G/H98DFM1QSXsl4eR6TG63R2ds3GUCoKDVvHjQ/Ttqv6xlkO6D2FI6nhiDQDOh+OGfLGvg==",
+  "dgSpecHash": "qYPi/cMDENybR0GToYMVmQk+GWNssgUNOzwuEuFk1n50X5LPlK4w0j9MpMJxCJfAwhmzcA6mQn9w5rFKIfsXew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Borislav\\Desktop\\New folder (3)\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\Services\\Services.csproj",
+  "projectFilePath": "C:\\Users\\Borislav\\Desktop\\swift\\-Swift-MT799-message-Web-API\\SwiftMessagesProcessor\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Borislav\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Borislav\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
