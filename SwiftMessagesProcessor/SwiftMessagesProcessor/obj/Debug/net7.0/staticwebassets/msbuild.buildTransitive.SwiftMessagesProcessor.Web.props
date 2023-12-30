@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\SwiftMessagesProcessor.Web.props" />
-</Project>
